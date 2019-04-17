@@ -1,5 +1,4 @@
 rm(list=ls())
-setwd("~/Library/Mobile Documents/com~apple~CloudDocs/Work/Programming/R/Ising Choice/Submission")
 source("functions.R")
 
 n.cue = 1
