@@ -1,3 +1,11 @@
+# This file contains the code to run all examples mentioned in the paper: 
+# Kruis, et al. (submitted) - The physics of (ir)rational choice.
+# A pre-print of the paper is available at: 
+
+# The ecb function is dependent on plyr and qgraph (if plot = T), if these are not installed please do so.
+# install.packages("plyr")
+# install.packages("qgraph")
+
 rm(list=ls())
 source("functions.R")
 
@@ -9,7 +17,6 @@ omega = matrix(0,n.node,n.node)
 omega[1,] = omega[,1] = c(0,1,1,1)
 
 # Debreu Example ----------------------------------------------------------
-
 omega.debreu = omega
 colnames(omega.debreu) = rownames(omega.debreu) = c("R","B_F","B_K","D_C")
 omega.debreu[2,3] = omega.debreu[3,2] = -10
