@@ -1,11 +1,11 @@
 # Conditional Ising Response Model
 
-## Run examples
-This repository contains the R code to run all examples mentioned in the paper: 
-Kruis, et al. (submitted) - The physics of (ir)rational choice.
+This repository contains the R code to run all examples mentioned in the paper: Kruis, et al. (submitted) - The physics of (ir)rational choice.
+
 A pre-print of the paper is available at: 
 
-To run these examples:
+## Run examples
+To run the examples:
 1. download both the functions.R and examples.R files
 2. open the examples.R files
 3. set the working directory to the location of the functions.R file
