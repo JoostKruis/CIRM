@@ -5,12 +5,10 @@ ising.dist <- function(omega, mu, beta)
 {
   n = length(mu) # number of magnets
   x = rep(0,n) # set binary class of magnets (0/1)
-
-  foo <- function(x)
+  
+  foo <- function(x) # if other 
   {
-    if(x==-1){y = c(x,0)}
-    if(x==0){y = c(x,1)}
-    if(x==1){y = c(-1,x)}
+    y = c(x,1)
     return(list(y))
   }
 
